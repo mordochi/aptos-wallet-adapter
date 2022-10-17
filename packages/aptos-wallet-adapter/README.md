@@ -13,6 +13,7 @@ Supports:
 - [Spika wallet](https://spika.app)
 - [Rise Wallet](https://rise)
 - [Fletch wallet](http://fletchwallet.io/)
+- [Blocto wallet](https://portto.com/download)
 
 Working on (PR welcome):
 
@@ -56,7 +57,8 @@ import {
   PontemWalletAdapter,
   SpikaWalletAdapter,
   RiseWalletAdapter,
-  FletchWalletAdapter
+  FletchWalletAdapter,
+  BloctoWalletAdapter
 } from '@manahippo/aptos-wallet-adapter';
 
 const wallets = [
@@ -68,7 +70,8 @@ const wallets = [
   new PontemWalletAdapter(),
   new SpikaWalletAdapter(),
   new RiseWalletAdapter(),
-  new FletchWalletAdapter()
+  new FletchWalletAdapter(),
+  new BloctoWalletAdapter()
 ];
 
 const App: React.FC = () => {
